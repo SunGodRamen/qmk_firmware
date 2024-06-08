@@ -1,0 +1,81 @@
+// -----------------------------------------------------
+// -----------------------------------------------------
+//  syntax:  COMB(name,            output,     KC_, KC_)
+//
+// -----------------------------------------------------
+// -----------------------------------------------------
+//                        CORE                         |
+// -----------------------------------------------------
+COMB(CMB_BSPC,               KC_BSPC,            H_, T_)
+COMB(CMB_DEL,                KC_DEL,             T_, N_)
+COMB(CMB_TAB,                KC_TAB,             H_, N_)
+COMB(CMB_ENTR_L,             KC_ENT,             J_, K_)
+COMB(CMB_ENTR_R,             KC_ENT,             M_, W_)
+COMB(CMB_ESC,                KC_ESC,             C_, R_)
+COMB(CMB_TILD,               KC_TILD,            CM_, DT_)
+COMB(CMB_GRAVE,              KC_GRAVE,           DQ_, Q_)
+COMB(CMB_EQL,                KC_EQL,             M_, V_)
+COMB(CMB_MINS,               KC_MINS,            W_, V_)
+COMB(CMB_FSLASH,             KC_SLSH,            T_, M_)
+COMB(CMB_BSLASH,             KC_BSLS,            GE_, K_)
+COMB(CMB_PIPE,               KC_PIPE,            T_, C_)
+// -----------------------------------------------------
+//                    NUMBERS LAYER                    |
+// -----------------------------------------------------
+COMB(CMB_LBRK,               KC_LBRC,            _7, _8)
+COMB(CMB_EZ_LBRK,            KC_LBRC,            NUMBR, G_)
+COMB(CMB_RBRK,               KC_RBRC,            _9, _8)
+COMB(CMB_EZ_RBRK,            KC_RBRC,            NUMBR, R_)
+COMB(CMB_LCBR,               KC_LCBR,            _1, _2)
+COMB(CMB_EZ_LCBR,            KC_LCBR,            NUMBR, M_)
+COMB(CMB_RCBR,               KC_RCBR,            _2, _3)
+COMB(CMB_EZ_RCBR,            KC_RCBR,            NUMBR, V_)
+COMB(CMB_LPRN,               KC_LPRN,            _4, _5)
+COMB(CMB_EZ_LPRN,            KC_LPRN,            NUMBR, H_)
+COMB(CMB_RPRN,               KC_RPRN,            _5, _6)
+COMB(CMB_EZ_RPRN,            KC_RPRN,            NUMBR, N_)
+COMB(CMB_GT,                 KC_GT,              _5, _3)
+COMB(CMB_EZ_GT,              KC_GT,              NUMBR, V_, M_)
+COMB(CMB_LT,                 KC_LT,              _5, _1)
+COMB(CMB_EZ_LT,              KC_LT,              NUMBR, V_, W_)
+// -----------------------------------------------------
+//                      NAVIGATE                       |
+// -----------------------------------------------------
+COMB(CMB_NV_ENTR,            KC_ENT,             HOME, PGDN)
+
+// -----------------------------------------------------
+//                      HOTKEYS                        
+// -----------------------------------------------------
+//                          LEADER HASH KEYS
+COMB(CMB_LHASH_1L,       LHASH1,             LS_, CU_)
+COMB(CMB_LHASH_1R,       LHASH1,             NV_SPC, H_)
+COMB(CMB_LHASH_2L,       LHASH2,             LS_, GE_)
+COMB(CMB_LHASH_2R,       LHASH2,             NV_SPC, T_)
+COMB(CMB_LHASH_3L,       LHASH3,             LS_, AO_)
+COMB(CMB_LHASH_3R,       LHASH3,             NV_SPC, N_)
+
+COMB(CMB_DMACRO_P1,      MACRO,              NV_SPC, M_)
+COMB(CMB_DMACRO_P2,      MACRO,              NV_SPC, W_)
+
+COMB(CMB_SWAP_L,         SH_OS,              LS_, A_)
+COMB(CMB_SWAP_R,         SH_OS,              NV_SPC, S_)
+
+COMB(CMB_YANK,           LCTL(KC_C),         A_, GE_)
+COMB(CMB_CUT,            LCTL(KC_X),         A_, X_)
+COMB(CMB_PUT,            LCTL(KC_V),         A_, CU_)
+COMB(CMB_BOARD,          LCTL(GRV_),         A_, AO_)
+
+COMB(CMB_SAVE,           LCTL(KC_S),         N_, S_)
+
+COMB(CMB_UNDO,           LCTL(KC_Z),         M_, Z_)
+COMB(CMB_REDO,           LSFT(RCTL(KC_Z)),   W_, Z_)
+
+// -----------------------------------------------------
+//                    APPLICATION HOTKEYS                     |
+// -----------------------------------------------------
+COMB(CMB_APP_1,           LSFT(LGUI(KC_1)),     F_, G_)
+COMB(CMB_APP_2,           LSFT(LGUI(KC_2)),     D_, H_)
+COMB(CMB_APP_3,           LSFT(LGUI(KC_3)),     B_, M_)
+COMB(CMB_APP_4,           LSFT(LGUI(KC_4)),     P_, Y_)
+COMB(CMB_APP_5,           LSFT(LGUI(KC_5)),     CU_, I_)
+COMB(CMB_APP_6,           LSFT(LGUI(KC_6)),     K_, X_)

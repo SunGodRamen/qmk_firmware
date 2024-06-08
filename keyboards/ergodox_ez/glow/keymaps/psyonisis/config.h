@@ -1,0 +1,3 @@
+#define LAYER_STATE_8BIT
+
+#define DYNAMIC_MACRO_DELAY 18

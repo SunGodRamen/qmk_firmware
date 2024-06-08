@@ -1,13 +1,6 @@
 {
-    "keyboard_name": "ErgoDox EZ Glow",
+    "keyboard_name": "Stradivarius",
     "usb": {
-        "pid": "0x4976"
-    },
-    "features": {
-        "bootmagic": false,
-        "mousekey": true,
-        "extrakey": true,
-        "nkro": true,
-        "rgb_matrix": true
+        "pid": "0x4444"
     }
 }
